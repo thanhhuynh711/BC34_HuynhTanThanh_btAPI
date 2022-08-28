@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav d-flex justify-content-between">
+          <div class="nav__logo">
+            <img src="./img/crest.png" alt="" />
+          </div>
+
+          <div class="nav__list-wrap d-flex">
+            <ul class="nav__list d-flex align-items-center">
+              <li class="nav__item">
+                <a href="#" class="nav__link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Courses</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Blog</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Shop</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Elements</a>
+              </li>
+            </ul>
+            <div class="nav__info d-flex align-items-center">
+              <button class="btn-main d-flex align-items-center">
+                <i class="fa-solid fa-phone"></i>
+                <p>(+1) 555 234-8765</p>
+              </button>
+              <span class="nav__social">
+                <a href="#">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+
+          <button class="nav__btn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- carousel -->
+    <section class="carousel">
+      <div class="carousel__img-top">
+        <img src="./img/yellow_top_wave_01.png" alt="" />
+      </div>
+      <div class="carousel__header">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+              <h1>
+                <span class="carousel__heading d-block">ABOUT US</span>
+                <span class="carousel__text"
+                  >The language teaching experts</span
+                >
+              </h1>
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid" src="./img/hero_team.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel__img-bottom">
+        <img src="./img/Violet_top_left_wave.png" alt="" />
+      </div>
+    </section>
+
+    <!-- team -->
+    <section class="team">
+      <div class="team__content container">
+        <div id="team__contentAPI" class="row"></div>
+      </div>
+      <div class="team_img">
+        <img src="./img/Wave_White_bottom_right_shape_01.png" alt="" />
+      </div>
+    </section>
+
+    <!-- course -->
+    <section class="course">
+      <div class="course__info container">
+        <div class="row">
+          <div class="course__img col-md-7">
+            <img src="./img/conatct_inner.png" alt="" />
+          </div>
+          <div class="course__card col-md-5">
+            <h4>Find Your Course</h4>
+            <div class="d-flex course__block">
+              <div class="btn__course btn__name">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Name" />
+              </div>
+              <div class="btn__course btn__email">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" placeholder="E-mail" />
+              </div>
+            </div>
+            <div class="course__nation">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <select class="form-control course__selec">
+                <option>Spanish</option>
+                <option>English</option>
+                <option>French</option>
+                <option>German</option>
+              </select>
+            </div>
+            <div class="course__text">
+              <i class="fa-solid fa-message"></i>
+              <textarea
+                class="course__message"
+                cols="40"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <button class="btn-main">SEND</button>
+          </div>
+        </div>
+      </div>
+      <div class="course_bottom">
+        <img src="./img/accent_bottom_wave_01.png" alt="" />
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section
+      style="background-image: url(./img/footer_background.jpg)"
+      class="footer"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-lg-3">
+            <h4>Contact us</h4>
+            <p>
+              <i class="fa-solid fa-location-dot"></i>
+              <span> Franklin St, Greenpoint Ave</span>
+            </p>
+            <p>
+              <i class="fa-solid fa-phone"></i>
+              <span>+2342 5446 67</span>
+            </p>
+            <p>
+              <i class="fa-solid fa-clock"></i>
+              <span>Monday - Friday: 8 AM - 5 PM</span>
+            </p>
+            <p>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-3">
+            <h4>Quick Links</h4>
+            <div class="footer__content d-flex">
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">Courses</a>
+                </li>
+                <li>
+                  <a href="#">Schedule</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-3">
+            <h4>About</h4>
+            <div class="footer__content d-flex">
+              <ul>
+                <li>
+                  <a href="#">About Us</a>
+                </li>
+                <li>
+                  <a href="#">Events</a>
+                </li>
+                <li>
+                  <a href="#">Get Quote</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-3">
+            <h4>Newsletter</h4>
+            <input type="text" placeholder="Your email" />
+            <button class="btn-main">SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Axios -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"
+      integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="./models/qlnv.js"></script>
+    <script src="./service/service.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

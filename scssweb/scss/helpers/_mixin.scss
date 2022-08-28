@@ -1,0 +1,42 @@
+@mixin btn-content($px1, $px2, $color1, $color2, $color3, $b-radius, $fz) {
+  padding: $px1 $px2;
+  border: none;
+  color: $color1;
+  border-radius: $b-radius;
+  transition: ease-out 0.2s;
+  font-size: $fz;
+  outline: none;
+  font-weight: 500;
+  background-color: $color2;
+  position: relative;
+  z-index: 1;
+  &:hover {
+    color: $color2;
+    cursor: pointer;
+  }
+  &::before {
+    content: "";
+    transition: 0.2s all ease;
+    position: absolute;
+    opacity: 0;
+    background-color: $color3;
+    top: 50%;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+  }
+  &:hover::before {
+    transition: 0.2s all ease;
+    top: 0;
+    bottom: 0;
+    opacity: 1;
+    z-index: -1;
+    border: 2px solid $color2;
+    border-radius: 30px;
+  }
+
+  p {
+    margin: 0;
+    padding-left: 5px;
+  }
+}

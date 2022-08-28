@@ -1,0 +1,40 @@
+.team {
+  position: relative;
+  background-color: $color-violet-2;
+  .team__content {
+    z-index: 3;
+    position: relative;
+    .team__info {
+      border-radius: $br-10;
+      overflow: hidden;
+      margin-bottom: 30px;
+      transition: all ease 0.3s;
+      &:hover {
+        box-shadow: 0 30px 30px -10px rgb(0 0 0 / 20%);
+      }
+
+      .team__body {
+        background-color: $color-white-1;
+        text-align: center;
+        padding: 30px;
+
+        h5 {
+          color: $color-violet-1;
+          font-size: $fz-12;
+        }
+        h3 {
+          font-size: 22px;
+          font-weight: $fw-600;
+        }
+        p {
+          font-size: $fz-14;
+          line-height: 2;
+        }
+      }
+    }
+  }
+  .team_img {
+    position: absolute;
+    bottom: 0;
+  }
+}

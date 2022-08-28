@@ -1,0 +1,35 @@
+.carousel {
+  padding: $pd-60 0;
+  background-repeat: no-repeat;
+  //   background-size: 100%;
+  .carousel__header {
+    .carousel__heading {
+      font: {
+        size: $fz-16;
+        weight: $fw-700;
+      }
+      letter-spacing: 1px;
+      color: $color-violet-1;
+      margin-bottom: 8px;
+    }
+    .carousel__text {
+      font: {
+        size: 57px;
+        weight: $fw-700;
+      }
+
+      @media (min-width: 740px) and (max-width: 1023px) {
+        font-size: 30px;
+      }
+    }
+  }
+  .carousel__img-top {
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .carousel__img-bottom {
+    position: absolute;
+    bottom: 0;
+  }
+}
